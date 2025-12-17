@@ -10,8 +10,8 @@ terraform.tfstate.backup
 # OS / Editor
 .DS_Store
 *.swp
-EOF
 
+# PEM files
 pemfile
 *.pem
 
