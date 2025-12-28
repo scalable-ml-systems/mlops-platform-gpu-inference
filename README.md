@@ -1,8 +1,12 @@
-##  MLOps Inference Platform Using Nvidia Triton Inference Server 
+##  MLOps GPU Inference Platform Using Nvidia Triton Inference Server 
 
-If it isn’t observable, automated, and scalable, it isn’t production-ready. Most AI projects fail at the "last mile" because the infrastructure is an afterthought. This project is a full-stack implementation of a high-concurrency inference ecosystem to serve models at scale.
+### Enterprise-Grade Scalable Inference using NVIDIA Triton & AWS EKS
+"If it isn’t observable, automated, and scalable, it isn’t production-ready."
 
-###  MLOps GPU Inference Platform Stack
+This project is an end-to-end implementation of a high-concurrency inference ecosystem designed to solve the "GPU Waste" problem. By leveraging NVIDIA Triton on AWS EKS, I’ve built a system that treats AI models as first-class citizens in a microservices architecture, maximizing throughput and reducing infrastructure costs.
+
+###  System Architecture 
+#### The Stack 
 
 - **Inference Server**: NVIDIA Triton (PyTorch, ONNX, TensorRT)
 - **Orchestration**: Kubernetes (EKS/GKE)
@@ -45,7 +49,7 @@ This platform accelerates AI/ML adoption across industries:
 | EFS                    | Shared model repository mounted into Triton pods                        |
 | CI/CD                  | GitHub Actions + Terraform + Helm for secure automation                 |
 | Observability          | Prometheus, Grafana, Loki, CloudWatch integration                       |
-| Service Mesh           | Istio                                                                   | 
+| Service Mesh           | Istio for canary rollouts                                                                 | 
 
 
 ## 🔐 Security & Compliance
@@ -53,7 +57,7 @@ This platform accelerates AI/ML adoption across industries:
 - IAM roles scoped via IRSA  
 - GitHub OIDC trust for CI/CD  
 - Secrets managed via Kubernetes  
-- Future: mTLS via Istio service mesh
+- zero Trust: mTLS via Istio service mesh
 
 
 
