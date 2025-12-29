@@ -3,7 +3,7 @@
 ### Enterprise-Grade Scalable Inference using NVIDIA Triton & AWS EKS
 "If it isn’t observable, automated, and scalable, it isn’t production-ready."
 
-This project is an end-to-end implementation of a high-concurrency inference ecosystem designed to solve the "GPU Waste" problem. By leveraging NVIDIA Triton on AWS EKS, I’ve built a system that treats AI models as first-class citizens in a microservices architecture, maximizing throughput and reducing infrastructure costs.
+This project is an end-to-end implementation of a high-concurrency inference ecosystem designed to solve the "GPU Waste" problem. By leveraging NVIDIA Triton on AWS EKS, I’ve built a system that treats AI models as first-class citizens in a production-grade inference platform, maximizing throughput and reducing infrastructure costs.
 
 ###  System Architecture 
 #### The Stack 
