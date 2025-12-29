@@ -67,7 +67,7 @@ This platform accelerates AI/ML adoption across industries:
 - Helm charts for Triton + observability stack  
 - Modular teardown and rebuild workflows  
 - Versioned container images via Amazon ECR
-- Models hosted in the aws EFS using the kubernetes persistant volume 
+- Models hosted in the aws EFS using the kubernetes persistent volume 
 
 
 
